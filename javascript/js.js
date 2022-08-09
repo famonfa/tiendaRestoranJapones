@@ -147,9 +147,11 @@ console.log(carrito);
        console.log(carrito);
     }
     
-
-    const total = carrito.reduce((accumulador, producto) => accumulador + producto.precio, 0);
-    cart.append(`Total Compra :  ${total}`);
+    const total = document.createElement('h2')
+    total.className = 'total'
+    const totalItems = carrito.reduce((accumulador, producto) => accumulador + producto.precio, 0);
+    total.append(`Total Compra :  ${totalItems}`);
+    cart.append(total)
 
     const close = document.createElement('span');
     close.className = 'close'

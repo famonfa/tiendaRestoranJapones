@@ -387,8 +387,16 @@ video {
     margin: 1em;
     justify-content: space-around;
     align-items: center;
+  }
+
+  @media (max-width: 800px) {
+    .card-loc {
+      width: 80%;
+      justify-content: center;
+      
 
 
+    }
   }
 
   .modal-bg {
@@ -407,15 +415,25 @@ video {
     transition: all 0.5s ease 0s;
   }
 
+  @media (max-width: 800px) {
+    .modal-bg {
+     justify-content: center;    
+    
+
+    }
+  }
+
   .bg-active {
     visibility: visible;
     opacity: 1;
   }
 
+  .modal-uno::-webkit-scrollbar { width: 0 !important }
 
   .modal-uno {
     padding-top: 2%;
     overflow: scroll;
+    
     height: 100vh;
     width: 40%;
     background-color: white;
@@ -428,12 +446,24 @@ video {
     background-size:initial;
     background-repeat:repeat-X;
     background-attachment:scroll; 
-
-  
     display: flex;
     justify-content:left;
-    
   } 
+
+  @media (max-width: 800px) {
+    .modal-uno {
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .modal-uno {
+      width: 80%;
+    }
+  }
+
+  
+  
 
   .close {
     position: fixed;
@@ -452,3 +482,14 @@ video {
   border-radius: 3px;
 }
    
+
+.total {
+ display: flex;
+ justify-content: center;
+ background-color:rgba(255,165,165) ;
+ padding: 0.3em;
+ width: 80%;
+ text-align: center;
+ font-size: 1.5rem;
+
+}

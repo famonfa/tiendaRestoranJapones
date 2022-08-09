@@ -1,0 +1,10 @@
+[
+{"id":0, "nombre":"Tonkatsus", "descripcion": "Tres empanaditas japonesas + Tonkatsu ro-su con Gohan y colchón de vegetales", "precio": 2000, "img": "./assets/tonkatsu.jpg" },
+{"id":1, "nombre":"Katsu Kare", "descripcion": "Apanado de cerdo acompañando con curry y vegetales en Gohan." ,"precio": 2200, "img": "./assets/katsukare.jpg" },
+{"id":2, "nombre":"Ebi Furai con Gyozas", "descripcion":"Apanado de langostinos + empanaditas japonesas." ,"precio": 2500, "img": "./assets/ebifurai.jpg" },
+{"id":3, "nombre":"Teriyaki de salmón", "descripcion": "Salmón grillado con salsa agridulce en gohan." ,"precio": 2100, "img": "./assets/teriyaki.jpg" },
+{"id":4, "nombre":"Sushi", "descripcion":"Combinado 11 piezas de sushi de Salmón. 2 Roll, 2 Maki, 3 Sashimi y 4 Nigiri" ,"precio": 1950, "img": "./assets/sushi.jpg" },
+{"id":5, "nombre":"Ramen", "descripcion":"Sopa de cerdo con fideos caseros + Pollo frito receta japonesa." ,"precio": 2800, "img": "./assets/ramen.jpg" },
+{"id":6, "nombre":"Pollo Teriyaki", "descripcion":"Pollo salteado con salsa agridulce teriyaki acompañado con arroz." ,"precio": 2800, "img": "./assets/reriyaki de salmon.jpg" },
+{"id":7, "nombre":"Yakisoba", "descripcion":"Tres empanaditas japonesas con picante coreano + Fideos salteados con vegetales." , "precio": 3000, "img": "./assets/yakisoba.jpg" }
+]

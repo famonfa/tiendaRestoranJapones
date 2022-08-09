@@ -8,6 +8,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/tingle.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
   <link rel="stylesheet" href="./style/style.css">
   <title>Casa Ponja</title>
   <script src="./javascript/js.js" async></script>
@@ -19,10 +22,15 @@
     <header>
       <nav class="navbar navbar-inverse fixed-top">
         <a class="navbar-brand" href="#"><img class="logo" src="./assets/ramenbowl.svg" alt=""></a>
+       
+        
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
+          
         </button>
+      
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ">
             <li class="nav-item active">
@@ -49,16 +57,23 @@
     <div class="portada">
       <h1 class="img-por">Nuestros platos</h1>
       
-     
+      
       
     </div>
 
     <div class="carrito" id="contenedorCarrito">
-     
     </div>
-    <div class="btn-holder">
-    <button id="btnCarrito">Ver Carrito</button>
+    <div open class="btn-holder">
+      <button class="modal-btn">Ver Carrito</button>
+      
     </div>
+   <div class="modal-bg">
+  <div id="cart" class="modal-uno">
+    
+    <div id="card-cart"></div>
+  
+  </div>   
+  </div>
 
       </main>
 
@@ -76,6 +91,10 @@
       </section>
 
       <section class="contacto">
+
+        
+
+
         <div class="container-dos">
 
           <div class="contacto-info">
@@ -88,6 +107,10 @@
               4444-4444
             </p>
 
+         
+            
+          
+
             <div class="brands">
 
               <img src="/assets/facebook-brands.svg" alt="">
@@ -95,16 +118,20 @@
 
               <img src="/assets/instagram-brands.svg" alt="">
 
+             
+
             </div>
+
+               
 
           </div>
 
         </div>
       </section>
 
+     
 
-
-
+      
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -115,6 +142,10 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-</body>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+      
+    </body>
 
 </html>
+
+

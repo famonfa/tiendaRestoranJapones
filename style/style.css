@@ -174,7 +174,8 @@ video {
     
   }
 
-  .btn {
+ 
+  .modal-btn {
     padding: 1em 2em;
     font-size: 12px;
     text-transform: uppercase;
@@ -191,14 +192,14 @@ video {
     margin-bottom: 0.5em;
   }
   
-  .btn:hover {
+  .modal-btn:hover {
     background-color: rgb(255,165,165);
     box-shadow: 0px 5px 5px rgb(255,165,165);
     color: #fff;
     transform: translateY(-7px);
   }
   
-  .btn:active {
+  .modal-btn:active {
     transform: translateY(-1px);
   }
 
@@ -209,14 +210,13 @@ video {
     margin-bottom: 2em;
   }
 
- 
   
-#btnCarrito {
-    background-color: rgb(255,165,165);
+.btn {
+    background-color: rgba(255,165,165, 0.6);
     box-shadow: 0px 5px 5px rgb(255,165,165);
     color: #fff;
     transform: translateY(-7px);
-    padding: 1em 2em;
+    padding: 0.6em 1.3em;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -227,7 +227,7 @@ video {
     cursor: pointer;
     outline: none;
     margin-bottom: 0.5em;
-  }
+  } */
   
  #btnCarrito {
     transform: translateY(-1px);
@@ -238,8 +238,6 @@ video {
     background-image: no-repeat;
   }
 
-
-  
   .container {
     display: flex;
     justify-content: space-around;
@@ -358,8 +356,6 @@ video {
     
   }
 
-  
-
   .contacto-info{
     margin-top: 2em;
     display: flex;
@@ -382,3 +378,77 @@ video {
     justify-content: center;
     gap: 0.5em;
   }
+
+  .card-loc {
+    width: 60%;
+    display: flex;
+    background: rgb(255,165,165);
+    padding: 0.8em;
+    margin: 1em;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+
+  .modal-bg {
+    overflow: scroll;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+  }
+
+  .bg-active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  .modal-uno {
+    padding-top: 2%;
+    overflow: scroll;
+    height: 100vh;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image:url(../assets/fondonanga.jpg);
+    background-size:initial;
+    background-repeat:repeat-X;
+    background-attachment:scroll; 
+
+  
+    display: flex;
+    justify-content:left;
+    
+  } 
+
+  .close {
+    position: fixed;
+    top:0;
+    right: 0;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 0.8em;
+    margin-top: 1.5em;
+    color:rgba(255,165,165) ;
+    cursor: pointer;
+  }
+
+.img-carrito {
+  width: 40%;
+  border-radius: 3px;
+}
+   
